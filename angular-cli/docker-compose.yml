@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  spa:
+    image: ng-docker
+    build:
+      context: ./ng-app
+    volumes:
+      - ./ng-app:/app/ng-app
+    working_dir: /app/ng-app
+    ports:
+      - 4200:4200
+    command: ng serve --host 0.0.0.0
