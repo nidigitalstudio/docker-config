@@ -1,3 +1,7 @@
-# Development enviroment
+# Docker Configurations
 
-My docker setup.
+Set of Dockerfiles to turn easy your enviroment criation.
+
+## How to section
+
+Copy template content and paste inside your Dockerfile.
