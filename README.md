@@ -1,2 +1,3 @@
-# docker-config
-All docker files from NDS
+# Development enviroment
+
+My docker setup.
